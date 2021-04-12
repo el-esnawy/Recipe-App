@@ -1,5 +1,5 @@
 import View from './View.js';
-import previewView from './previewView.js';
+import PreviewView from './PreviewView.js';
 
 class BookmarksView extends View {
   _parentElement = document.querySelector('.bookmarks__list');
@@ -12,7 +12,7 @@ class BookmarksView extends View {
 
   _generateMarkup() {
     return this._data
-      .map(bookmark => previewView.render(bookmark, false))
+      .map(bookmark => PreviewView.render(bookmark, false))
       .join('');
   }
 }
