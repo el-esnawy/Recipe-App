@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe App",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Mohamed El-Esnawy",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
+    "@babel/plugin-syntax-class-properties": "^7.12.13",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "babel-plugin": "^1.0.6",
+    "core-js": "^3.10.1",
+    "fractional": "^1.0.0",
+    "git": "^0.1.5",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
