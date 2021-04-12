@@ -9,4 +9,9 @@ export const SVG_URL = `url:../../img/icons.svg`;
 export const RESULTS_PER_PAGE = 10;
 
 export const TIMEOUT_SEC = 10;
-console.log('hello');
+
+const feature = function () {
+  console.log('welcome to the app');
+};
+
+feature();
