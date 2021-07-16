@@ -1,4 +1,3 @@
 # forkify project
 
-recipe application with custom recipe uploads
-git
+Recipe Finding Web App using only Vanilla JS
